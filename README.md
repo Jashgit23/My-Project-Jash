@@ -1,3 +1,41 @@
+Take-Home challenge
+DOCUMENTATION
+BIGQUERY SETUP
+Created a sandbox account in Bigquery 
+Created a dataset under my project
+Injected both the CSV files for assignment as SALES and ORDERS table.
+Under API& Services created a credentials  to connect bigquery and DBT through service account and downloaded the JSON file with all security details.
+
+DBT SETUP
+Create a free account in DBT
+Integrate the Github through integration services
+Connected Bigquery as project and uploaded the JSON file to establish connection
+
+DBT WORKFLOW
+Create the dataset dbt_jashgit23 where all the transformed data will be loaded
+The model is split into 3 DLK, DWH, DMT
+DLK is for import of the entire raw data
+DWH is for all the cleaning transformation referencing the DWH
+DMT is the final cleaned data with all required columns for reporting
+All code changes are pushed to github and merged on review
+
+GITHUB
+Set up Github account -  https://github.com/Jashgit23/My-Project-Jash
+The readme has all the SQL and LookML code
+Drafted a new release t know the current version 2023.2
+
+
+LookML
+Trained LookML coding in Qwiklabs
+Structured the semantic model in two steps model and views
+Model file is the entire collection of tables where the relation between tables is defined
+Views is the definition of each table where things like datatype, custom calculated fields is defined
+
+
+
+
+
+
 # SQL and LOOKML
 
 --Exercice 1:
