@@ -31,7 +31,8 @@ Structured the semantic model in two steps model and views
 Model file is the entire collection of tables where the relation between tables is defined
 Views is the definition of each table where things like datatype, custom calculated fields is defined
 
-
+LookerStudio Dashboard -
+https://lookerstudio.google.com/reporting/bfe4c9bc-6447-4c37-bfee-caadb6b1ee69
 
 
 
